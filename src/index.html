@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pelayo | Task 5 Training Front Project</title>
+    <link rel="stylesheet" href="../../reset.css" />
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+  </head>
+
+  <body>
+    <div class="cmp-weather-app">
+      <div class="cmp-weather-app__content">
+        <div class="cmp-weather-app__content-title">
+          <div class="title__name"></div>
+          <div class="title__day">Tue, Jun 30</div>
+        </div>
+        <div class="cmp-weather-app__content-weather">
+          <img class="weather__img" />
+          <div class="weather__degree">
+            <div class="weather__degree-number">
+              <div class="number__cuantity"></div>
+              <div class="number__text"></div>
+            </div>
+            <div class="weather__degree-celsius">
+              <p class="celsius__circle">°</p>
+              <p class="celsius__letter">c</p>
+            </div>
+          </div>
+        </div>
+        <div class="cmp-weather-app__content-stats">
+          <div class="stats__stat">
+            <div class="stats__stat-title">
+              <div class="title__img">
+                <img
+                  src="img/umbrella.svg"
+                  alt="RainFall"
+                  class="title__img-icon"
+                />
+              </div>
+              <div class="title__name"><p>RainFall</p></div>
+            </div>
+
+            <div class="stats__stat-cuantity">
+              <div class="cuantity__number rainfall"></div>
+            </div>
+          </div>
+          <div class="stats__stat">
+            <div class="stats__stat-title">
+              <div class="title__img">
+                <img src="img/wind.svg" alt="Wind" class="title__img-icon" />
+              </div>
+              <div class="title__name"><p>Wind</p></div>
+            </div>
+
+            <div class="stats__stat-cuantity">
+              <div class="cuantity__number wind"></div>
+            </div>
+          </div>
+          <div class="stats__stat">
+            <div class="stats__stat-title">
+              <div class="title__img">
+                <img
+                  src="img/humidity.svg"
+                  alt="Humidity"
+                  class="title__img-icon"
+                />
+              </div>
+              <div class="title__name"><p>Humidity</p></div>
+            </div>
+
+            <div class="stats__stat-cuantity">
+              <div class="cuantity__number humidity"></div>
+            </div>
+          </div>
+        </div>
+        <div class="cmp-weather-app__content-days">
+          <div class="days__names">
+            <div class="days__names-now-tomorrow">
+              <ul class="now-tomorrow__days">
+                <li class="now-tomorrow__days-today">Today</li>
+                <li class="now-tomorrow__days-tomorrow">Tomorrow</li>
+              </ul>
+            </div>
+            <a href="nextSevenDays.html" class="days__names-next">
+              <p class="next__seven">Next 7 days</p>
+              <div class="next__arrow">
+                <img src="img/next.svg" alt="next" class="next__arrow-icon" />
+              </div>
+            </a>
+          </div>
+          <div class="days__separate">
+            <div class="days__separate-focus"></div>
+          </div>
+        </div>
+        <div id="carousel" class="cmp-weather-app__content-carrousel"></div>
+      </div>
+    </div>
+    <script defer src="js/script.js"></script>
+  </body>
+</html>
