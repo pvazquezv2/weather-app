@@ -10,7 +10,7 @@ HTML, CSS, LESS, JAVASCRIPT, FIGMA, API WEATHER METEO
   <ul>Diseño responsive MOBILE FIRST</ul>
   <ul>Pixel perfect basado en Figma</ul>
   <ul>Fetch con JS con la API: https://open-meteo.com/</ul>
-<div>![mockuper (2)](https://github.com/user-attachments/assets/09df5400-0012-4be7-8445-6b190732d4a1)</div>
+![mockuper (2)](https://github.com/user-attachments/assets/09df5400-0012-4be7-8445-6b190732d4a1)
 
 
 
